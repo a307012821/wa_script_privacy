@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — WA Contact Finder</title>
+  <meta name="description" content="Privacy Policy for the WA Contact Finder browser extension.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --fg: #1a1d21;
+      --muted: #5c6570;
+      --border: #d8dde3;
+      --accent: #0b57d0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121416;
+        --fg: #e8eaed;
+        --muted: #9aa0a6;
+        --border: #3c4043;
+        --accent: #8ab4f8;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    .wrap {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.75rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 650;
+      margin: 0 0 0.35rem;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 650;
+      margin: 2rem 0 0.75rem;
+    }
+    p, li { margin: 0 0 0.85rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    .note {
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-left: 3px solid var(--border);
+      padding-left: 1rem;
+      margin: 1.25rem 0;
+    }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>WA Contact Finder</strong> — Last updated: <time datetime="2026-04-20">April 20, 2026</time></p>
+      <p class="meta">Replace this page’s contact details below before publishing.</p>
+    </header>
+
+    <main>
+      <p>
+        This Privacy Policy describes how the <strong>WA Contact Finder</strong> browser extension
+        (“Extension”, “we”, “us”) handles information when you install and use it. By using the Extension,
+        you agree to this policy.
+      </p>
+
+      <h2>1. Summary</h2>
+      <p>
+        The Extension is designed to help you extract <strong>publicly visible WhatsApp contact links</strong>
+        (for example, <code>wa.me</code> URLs) from <strong>Google Search result pages</strong> that you choose to open
+        through the Extension’s workflow. It stores some settings and session data <strong>locally in your browser</strong>.
+        We do not sell your personal information.
+      </p>
+
+      <h2>2. Information stored locally on your device</h2>
+      <p>The Extension may use Chrome’s local storage to save items such as:</p>
+      <ul>
+        <li>Your search preferences (for example: keyword, optional site filter, number of pages, Google domain).</li>
+        <li>Temporary runtime state while a search is running (for example: progress and collected links).</li>
+        <li>Optional configuration related to membership or authorization, if you enable features that require it.</li>
+      </ul>
+      <p>
+        This data remains on your device under your Chrome profile unless you clear extension data or uninstall the Extension.
+      </p>
+
+      <h2>3. How the Extension uses permissions</h2>
+      <ul>
+        <li>
+          <strong>Tabs &amp; scripting:</strong> The Extension may create or update a Google Search tab and run scripts
+          <strong>only on that Google Search page</strong> to read the visible results and extract matching WhatsApp links.
+        </li>
+        <li>
+          <strong>Side panel:</strong> Displays the user interface (forms, progress, results, export actions).
+        </li>
+        <li>
+          <strong>Storage:</strong> Saves the local data described in Section 2.
+        </li>
+      </ul>
+      <p class="note">
+        The Extension does not request broad access to all websites for this core workflow; host access is limited to
+        Google Search-related domains required to run user-initiated searches, as disclosed in the Extension listing.
+      </p>
+
+      <h2>4. Data sent to servers (if any)</h2>
+      <p>
+        The core link-extraction workflow operates locally in your browser. Depending on the version you install and the
+        features you enable, the Extension <strong>may</strong> communicate with third-party or first-party services, for example:
+      </p>
+      <ul>
+        <li>
+          <strong>Payment / subscription providers</strong> (for example, ExtensionPay or similar), only if that integration
+          is enabled in your build. Those providers process payments and subscription status according to their own policies.
+        </li>
+        <li>
+          <strong>Your own website or API</strong>, only if you connect an account or token through an authorized pairing flow.
+          In that case, only the minimum information required to verify entitlements should be transmitted.
+        </li>
+      </ul>
+      <p>
+        If your distributed package does not include remote account or payment features, then no personal data needs to be
+        sent to our servers for basic usage.
+      </p>
+
+      <h2>5. Google Search &amp; third-party sites</h2>
+      <p>
+        The Extension automates Google Search navigation that <strong>you start</strong>. Google may show security checks
+        (for example, CAPTCHA). The Extension may detect such pages and ask you to complete verification in the search tab.
+        Your use of Google Search is also subject to Google’s terms and policies.
+      </p>
+      <p>
+        Links displayed in search results may point to third-party websites or services. We do not control those sites and
+        are not responsible for their privacy practices.
+      </p>
+
+      <h2>6. Lawful use</h2>
+      <p>
+        You are responsible for using contact information you collect in compliance with applicable laws and regulations,
+        website terms, and applicable platform policies (including WhatsApp / Meta policies). Do not use the Extension for spam,
+        harassment, or unauthorized data collection.
+      </p>
+
+      <h2>7. Children’s privacy</h2>
+      <p>
+        The Extension is not directed to children under 13 (or the minimum age required in your jurisdiction). We do not
+        knowingly collect personal information from children.
+      </p>
+
+      <h2>8. Changes</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do.
+        Continued use of the Extension after changes means you accept the updated policy.
+      </p>
+
+      <h2>9. Contact</h2>
+      <p>
+        <!-- TODO: Replace with your real contact -->
+        Questions about this policy: <a href="mailto:privacy@example.com">privacy@example.com</a><br>
+        Project / publisher page (optional): <a href="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/">https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/</a>
+      </p>
+    </main>
+
+    <footer>
+      <p>© <span id="y"></span> WA Contact Finder. All rights reserved.</p>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
